@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    text-align: start;
+}
+
+.wrap {
+
+    width: 952px;
+}
+
+.contanier {
+    /* border: 1px solid #000; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+p.launching {
+    font-size: 23px;
+    margin: 12px;
+}
+
+.disscount-thing h1 {
+    font-size: 51px;
+    width: 453px;
+}
+
+.disscount-thing {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    border: 1px solid;
+    background: black;
+    color: ghostwhite;
+    margin-top: 50px;
+}
+
+.form h2 {
+    font-size: 28px;
+    width: 370px;
+}
+
+.form p {
+    width: 334px;
+    font-size: 19px;
+    margin: 24px 0;
+}
+
+.things {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+}
+
+input {
+    height: 25px;
+    width: 100%;
+    border: 1px solid #0000;
+    border-radius: 4px;
+    padding: 12px;
+    outline: none;
+}
+button {
+    width: 100%;
+    margin: 23px 0;
+    height: 37px;
+    background: #518e57;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+    transition: 0.9s;
+}
+button:hover{
+    background: gray;
+    color: black;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    font-size: 45px;
+    gap: 22px;
+}
+.icons a{
+    color: black;
+    transition: 0.1s;
+}
+.icons a:hover{
+    font-size: 50px;
+}
+.contanier{
+    margin-top: 12px;
+}
+@media screen and (max-width:720px) {
+    .wrap {
+        border: 1px solid #000;
+        width: 691px;
+        margin: 19px 0;
+    }
+    .contanier {
+        /* border: 1px solid #000; */
+        /* width: 100%; */
+        justify-content: center;
+        display: flex;
+    }
+    .things {
+       
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-maal {
+        text-align: center;
+    }
+    .left-maal {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-maal {
+        display: flex;
+        justify-content: center;
+    }
+}
