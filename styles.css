@@ -1,7 +1,13 @@
+/*
+* Custom font
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
 }
 
 body {
@@ -17,12 +23,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 300px;
+    width: 420px;
     text-align: start;
 }
 
 .wrap {
-
     width: 952px;
 }
 
@@ -34,13 +39,13 @@ body {
 }
 
 p.launching {
-    font-size: 23px;
+    font-size: 18px;
     margin: 12px;
 }
 
 .disscount-thing h1 {
     font-size: 51px;
-    width: 453px;
+    max-width: 600px;
 }
 
 .disscount-thing {
@@ -58,11 +63,11 @@ p.launching {
 
 .form h2 {
     font-size: 28px;
-    width: 370px;
+    max-width: 420px;
 }
 
 .form p {
-    width: 334px;
+    max-width: 420px;
     font-size: 19px;
     margin: 24px 0;
 }
@@ -78,7 +83,7 @@ input {
     width: 100%;
     border: 1px solid #0000;
     border-radius: 4px;
-    padding: 12px;
+    padding: 18px;
     outline: none;
 }
 button {
@@ -94,8 +99,8 @@ button {
     transition: 0.9s;
 }
 button:hover{
-    background: gray;
-    color: black;
+    background: green;
+    color: white;
 }
 .icons {
     display: flex;
@@ -120,6 +125,7 @@ button:hover{
         width: 691px;
         margin: 19px 0;
     }
+        justify-content: center;
     .contanier {
         /* border: 1px solid #000; */
         /* width: 100%; */
